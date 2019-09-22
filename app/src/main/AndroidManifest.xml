@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".pay"></activity>
-        <activity android:name=".Admin_main" />
+        <activity android:name=".Admin_main"></activity>
         <activity android:name=".Admin_add" />
         <activity android:name=".admin_action" />
         <activity
