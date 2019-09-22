@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_action">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo"
+        />
+    <Button
+        android:id="@+id/admin_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:text="Edit Items"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+
+
+        />
+    <Button
+        android:id="@+id/admin_remove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/admin_edit"
+        android:text="Remove Items"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+
+        />
+    <Button
+        android:id="@+id/admin_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/admin_remove"
+        android:text="ADD Items"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+
+
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_main">
+
+
+
+
+        <TextView
+            android:id="@+id/adminca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="ADMIN PORTAL"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:id="@+id/admicop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adminca"
+            android:textSize="20dp"
+            android:text="Add,Remove ,Change ,Edite Items"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorAccent"
+            />
+        <LinearLayout
+            android:id="@+id/liniar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="80dp"
+            >
+            <ImageView
+                android:id="@+id/pizza"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/pizza"
+                />
+            <ImageView
+                android:id="@+id/normal_food"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:src="@drawable/fd80ecec48eba2a9adb76e4133905879"
+
+                />
+            <ImageView
+                android:id="@+id/burger"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/hamburger"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/liniar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/liniar"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_margin="20dp" >
+
+            <ImageView
+                android:id="@+id/drinks"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/drinks"
+                />
+            <ImageView
+                android:id="@+id/deserts"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:src="@drawable/der"
+                />
+            <ImageView
+                android:id="@+id/cakes"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/decert"
+                />
+        </LinearLayout>
+
+
+</RelativeLayout>

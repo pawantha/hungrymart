@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_add">
+
+    <ImageView
+        android:id="@+id/select_produt"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:cropToPadding="false"
+        android:src="@drawable/add"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/pro_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_produt"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:hint="Product name..."
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/mycolour"
+
+        />
+    <EditText
+        android:id="@+id/pro_dis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pro_name"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="30dp"
+        android:padding="30dp"
+        android:hint="Product Discription.."
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/mycolour"
+        />
+    <EditText
+        android:id="@+id/pro_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pro_dis"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:hint="Product price..."
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/mycolour"
+
+        />
+    <Button
+        android:id="@+id/Admin_submit_new_pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pro_price"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:text="Add product"
+        android:background="@color/colorPrimary"
+
+
+        />
+
+</RelativeLayout>
